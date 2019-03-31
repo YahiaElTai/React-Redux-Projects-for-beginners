@@ -1,4 +1,7 @@
-import React from "react";
+/* eslint-disable jsx-a11y/no-noninteractive-element-interactions */
+/* eslint-disable jsx-a11y/click-events-have-key-events */
+import React from 'react';
+import PropTypes from 'prop-types';
 
 const VideoListItem = ({ video, onVideoSelect }) => {
   const imageURL = video.snippet.thumbnails.default.url;
@@ -17,6 +20,11 @@ const VideoListItem = ({ video, onVideoSelect }) => {
       </div>
     </li>
   );
+};
+
+VideoListItem.propTypes = {
+  video: PropTypes.shape().isRequired,
+  onVideoSelect: PropTypes.func.isRequired,
 };
 
 export default VideoListItem;

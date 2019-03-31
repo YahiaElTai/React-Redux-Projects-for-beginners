@@ -1,5 +1,5 @@
-import React from "react";
-import ReactDOM from "react-dom";
-import YouTube from "./YouTube";
+import React from 'react';
+import ReactDOM from 'react-dom';
+import YouTube from './YouTube';
 
-ReactDOM.render(<YouTube />, document.getElementById("root"));
+ReactDOM.render(<YouTube />, document.getElementById('root'));

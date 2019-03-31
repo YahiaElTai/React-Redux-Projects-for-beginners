@@ -31,7 +31,7 @@ All the projects are created with Create React App which a very handy tool to cr
 
 #### Demo finished projects
 
-1. React YouTube Clone http://military-sticks.surge.sh/
+1. React YouTube Clone http://nosy-needle.surge.sh/
 
 2. Coming Soon...
 

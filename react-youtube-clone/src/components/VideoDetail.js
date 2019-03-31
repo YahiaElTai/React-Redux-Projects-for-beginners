@@ -1,6 +1,6 @@
-import React from "react";
-import PropTypes from "prop-types";
-import moment from "moment";
+import React from 'react';
+import PropTypes from 'prop-types';
+import moment from 'moment';
 
 const VideoDetail = ({ video }) => {
   if (!video) {
@@ -22,7 +22,7 @@ const VideoDetail = ({ video }) => {
       <div>
         <div className="details">
           <p>{snippet.channelTitle}</p>
-          <p>{moment(snippet.publishedAt).format("MMMM Do, YYYY")}</p>
+          <p>{moment(snippet.publishedAt).format('MMMM Do, YYYY')}</p>
         </div>
         <div className="details">
           <h4>{snippet.title}</h4>
@@ -33,6 +33,12 @@ const VideoDetail = ({ video }) => {
   );
 };
 
-VideoDetail.propTypes = { video: PropTypes.object.isRequired };
+VideoDetail.propTypes = {
+  video: PropTypes.shape(),
+};
+
+VideoDetail.defaultProps = {
+  video: null,
+};
 
 export default VideoDetail;

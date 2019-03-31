@@ -1,5 +1,7 @@
-import React from "react";
-import VideoListItem from "./video_list_item.js";
+import React from 'react';
+import PropTypes from 'prop-types';
+
+import VideoListItem from './VideoListItem';
 
 const VideoList = ({ videos, onVideoSelect }) => {
   return (
@@ -13,6 +15,11 @@ const VideoList = ({ videos, onVideoSelect }) => {
       ))}
     </ul>
   );
+};
+
+VideoList.propTypes = {
+  videos: PropTypes.arrayOf(PropTypes.shape()).isRequired,
+  onVideoSelect: PropTypes.func.isRequired,
 };
 
 export default VideoList;

@@ -1,0 +1,32 @@
+{
+  "extends": ["react-app", "airbnb", "prettier", "prettier/react"],
+  "plugins": ["react", "jsx-a11y", "import", "prettier"],
+  "rules": {
+    "react/jsx-filename-extension": 0,
+    "no-multiple-empty-lines": [
+      "error",
+      {
+        "max": 1
+      }
+    ],
+    "max-len": [
+      "error",
+      {
+        "code": 150
+      }
+    ],
+    "indent": ["error", 2],
+    "react/sort-comp": [
+      2,
+      {
+        "order": [
+          "type-annotations",
+          "static-methods",
+          "lifecycle",
+          "everything-else",
+          "render"
+        ]
+      }
+    ]
+  }
+}
