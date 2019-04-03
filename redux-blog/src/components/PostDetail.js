@@ -46,11 +46,14 @@ const mapDisptachToProps = dispatch => bindActionCreators(actions, dispatch);
 const mapStateToProps = state => ({ post: state.posts.post });
 
 PostDetail.propTypes = {
-  post: PropTypes.shape().isRequired,
+  post: PropTypes.shape(),
   fetchPost: PropTypes.func.isRequired,
   deletePost: PropTypes.func.isRequired,
   match: PropTypes.shape().isRequired,
   history: PropTypes.shape().isRequired,
+};
+PostDetail.defaultProps = {
+  post: null,
 };
 
 export default connect(
