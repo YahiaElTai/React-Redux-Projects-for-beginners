@@ -37,7 +37,7 @@ All the projects are created with Create React App which a very handy tool to cr
 
 3. React Pet Appointment Planner http://discreet-coach.surge.sh/
 
-4. Redux Simple Blog http://grumpy-rest.surge.sh/
+4. Redux Simple Blog (with React Router) http://obtainable-desk.surge.sh/
 
 5. Coming Soon...
 
