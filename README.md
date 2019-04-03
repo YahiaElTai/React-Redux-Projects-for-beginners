@@ -26,15 +26,18 @@ All the projects are created with Create React App which a very handy tool to cr
 #### Instruction to start any project
 
 1. cd into the project `cd project__name`
-2. `npm install` to install the needed dependencies
-3. `npm start` to start the project
+2. `npm install` || `yarn` to install the needed dependencies
+3. `npm start` || `yarn start` to start the project
 
 #### Demo finished projects
 
 1. React YouTube Clone http://nosy-needle.surge.sh
+
 2. React Five Days Weather http://sick-size.surge.sh
 
-3. Coming Soon...
+3. React Pet Appointment Planner http://discreet-coach.surge.sh/
+
+4. Coming Soon...
 
 #### Helpful suggestion
 
