@@ -1,0 +1,8 @@
+{
+  "extends": ["react-app", "airbnb", "prettier", "prettier/react"],
+  "plugins": ["react", "jsx-a11y", "import", "prettier"],
+  "rules": {
+    "react/jsx-filename-extension": 0,
+    "no-multiple-empty-lines": ["error", { "max": 1 }]
+  }
+}

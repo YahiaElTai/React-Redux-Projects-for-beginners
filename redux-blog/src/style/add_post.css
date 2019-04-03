@@ -1,0 +1,16 @@
+h3 {
+  margin-top: 60px !important;
+}
+
+.mt-32 {
+  margin-top: 32px !important;
+}
+
+label {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+form a {
+  margin-left: 10px;
+}
