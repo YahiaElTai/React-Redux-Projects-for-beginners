@@ -11,7 +11,7 @@ There are two methods for getting started with this repo.
 follow instructions:
 
 ```
-> git clone https://github.com/YahiaElTai/ProjectsIdeasForBeginners.git
+> git clone https://github.com/YahiaElTai/React-Redux-Projects-for-beginners.git
 > cd ProjectsIdeasForBeginners
 ```
 
@@ -45,7 +45,8 @@ All the projects are created with Create React App which a very handy tool to cr
 
 1. Makue sure you have React Dev Tools, it's very helpful to debug and also see the project as a whole.
 
-2. I would also recommend for you to just look at the finished websites and try to replicate each one of them without looking at the code, give it your best shot,
-   if you find any problems then take a quick glance at the code to see where it got kind of confusing.
+2. I would also recommend for you to just look at the finished websites and try to replicate each one of them without looking at the code, give it your best shot, if you find any problems then take a quick glance at the code to see where it got kind of confusing.
 
-3. feel free to add new features or changes and create a Pull Request and i will be happy to review your code and give you some helpful comments.
+3. feel free to add new features to projects or add more projects with smiliar level of difficulty and i will be happy to review your code and give you some helpful comments.
+
+4. Drink coffee!
